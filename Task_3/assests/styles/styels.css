@@ -1,0 +1,392 @@
+      
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* main bar */
+
+.delivery-info , 
+.search,
+.login ,
+.wishlist ,
+.arabic ,
+.cart ,
+.noon-logo ,
+.eg-flag,
+.loc,
+.bar,
+.bar1{
+    margin-top: 10px;
+    float: left;
+    height: 50px;
+    text-align: center;
+    padding: 10;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.clear{
+    clear: both;
+}
+.main-container{
+    background-color: yellow;
+    min-height: 55px;
+    max-height: 200px;
+}
+
+.delivery-info{  
+    width: 4%;
+}
+.delivery-info .city{
+    font-weight: bold;
+}
+
+.loc{
+    height: 20px;
+    margin-top : 3px ;
+    margin-right: 10px; 
+}
+
+.search{
+    width: 50%;
+    margin-right: 20px;
+}
+.search input{
+    width: 100%;
+    max-width: 100%;
+    height: 33px;
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.search input:focus {
+    outline: none;
+}
+.arabic{
+    width: 4%;
+    font-family: "Cairo", sans-serif;
+    position:relative;
+    top: 3px;
+
+}
+.login ,
+.wishlist ,
+.cart{
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    width: 8%;
+    margin-left: -25px;
+    margin-top: 15px;
+}
+.bar{
+    margin-top: -5px;
+    color: rgb(189, 185, 185);
+}
+.bar1{
+    margin-top: -5px;
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+}
+.noon-logo{
+    margin-top: 8px;
+    height: 25px;
+}
+.eg-flag{
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.login-icon,
+.wishlist-icon,
+.cart-icon {
+    position: absolute;
+    top: 20px;
+    margin-left: 10px;
+}
+
+
+/* second main bar */
+
+
+
+.primary-container{
+    background-color: rgb(243, 243, 243);
+    height: 40px;
+}
+
+.primary-container .second-bar , .second-bar1{
+    float: left;
+    margin-right: 30px;
+    padding: 5px 20px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.primary-container .second-bar1{
+    color: rgb(43, 43, 252);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.gallary-adds{
+    margin-top: -10px;
+}
+.addvertise-photo , 
+.gallary-adds{
+    width: 100%;
+}
+
+.detailed-category{
+    background-color: rgba(232, 240, 240, 0.322);
+    margin-top: -10px;
+    cursor: pointer;
+}
+.small-cate , .small-cate1{
+    height: calc(170vh / 11);
+    padding: 18px;
+    margin-right: .6vw;
+}
+
+.small-cate1{
+    margin-left: 1%;
+}
+
+.spootlite{
+    height: 35vw;
+}
+
+.first-middle  , .first-middle-2{
+    background-color: rgb(245, 248, 248);
+    height: 65vh;
+    width: calc(100% / 3 - 40px);
+    float: left;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.first-middle-2{
+    background-color: rgba(229, 255, 0, 0.37);
+}
+
+.first-middle h1 , .first-middle-2 h1{
+    font-family: "Cairo", sans-serif;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.reasons-shop , .mega-deal {
+   background-color: rgb(246, 253, 253);
+   border-radius: 10px;
+   float: left;
+   height: 27vh;
+   width: calc(100% / 2 - 40px);
+   margin-left: 27px;
+   margin-bottom: 20px;
+   border: .3px solid rgba(0, 0, 0, 0.164);
+   cursor: pointer;
+}
+.reasons-shop img , .mega-deal img {
+    display: block;
+    height: 20vh;
+    width: calc(100%);
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+
+.reasons-shop h4 {
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.reasons-shop h6 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: -25px;
+    padding: 10px;
+    word-spacing: 3px;
+}
+
+.mega-deal h4 {
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    margin-top: -50px;
+    padding: 10px;
+}
+
+.mega-deal h6 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 0px;
+    padding: 10px;
+    word-spacing: 2px;
+    line-height: 15px;
+}
+
+
+.inner-link{
+        position: absolute;
+        width: 5vw;
+        background-color: rgb(255, 230, 0);
+        color: #bb0e0e; /* black text */
+        padding : 5px ;
+        text-decoration: none ; 
+        font-family: "cairo" , sans-serif;
+        font-weight: bold;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+}
+
+.in-focus img{
+    width: calc(100% - 50px);
+    margin: 15px 25px;
+}
+
+.reco h1{
+    font-family: "Cairo", sans-serif;
+    margin-left: 20px;
+}
+
+.mini-product{
+    height: 25vw;
+    margin: 20px;
+
+}
+.product-card{
+    background-color: rgb(241, 238, 238);
+    border-radius: 10px;
+    width: 14vw;
+    height: 47vh;
+    float: left;
+    margin-left: 35px;
+}
+.product-image ,
+.favourite , 
+.add-cart , 
+.express{
+    float: left;
+}
+
+.product-image img{
+    padding: 14px;
+    border-radius: 25px;
+    width: 12.5vw;
+}
+
+.favourite{
+    background-color: #e7e3e3;
+    box-shadow: #000000;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin-left: -70px;
+    margin-top: 35px;
+}
+
+.add-cart{
+    background-color: #e7e3e3;
+    box-shadow: #000000;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin-left: -70px;
+    margin-top: 300px;
+}
+
+.product-card h4{
+    font-family: "Cairo", sans-serif;
+    line-height: 20px;
+    margin-top: -10px;
+    padding-left: 14px;
+}
+
+.product-card h6 {
+    font-family: "Cairo", sans-serif;
+    margin-top: -20px;
+}
+.egp{
+    padding-left: 14px;
+    font-size: 14px;
+    font-weight: 300;
+    padding-right: 5px;
+}
+.bef{
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 5px;
+
+}
+.aft{
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.express{
+    position: absolute;
+    top: 204.3vh;
+    margin-left: 10px;
+}
+
+
+.two-adds{
+    width: 99vw;
+}
+
+.two-adds .img1{
+    height: 26vh;
+    width: 95vh;
+    margin-left: 9px;
+}
+
+.two-adds .img2{
+    margin-left: -5px;
+    height: 26vh;
+    width: 96vh;
+}
+
+.two-adds .img3{
+    height: 25vh;
+    width: 190vh;
+    margin-left: 9px;
+    margin-top: 30px;
+}
+.two-adds .img4{
+    height: 35vh;
+    width: 190vh;
+    margin-left: 9px;
+    margin-top: 30px;
+}
+
+.end-page {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    border: 1px solid rgb(214, 209, 209);
+    border-radius: 10px;
+    margin-top: 80px;
+    height: 15vh;
+}
+
+.end-page h4, .end-page img {
+    margin: 0 10px; 
+}
+
+
+
+
